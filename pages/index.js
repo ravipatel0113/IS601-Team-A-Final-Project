@@ -8,6 +8,9 @@ import React from 'react';
 export default function Home() {
     return(
         <>
+        <Head>
+          <title>Beans & Brews</title>
+        </Head>
         <h1>Hello</h1>
         </>
     );
