@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
 import mainStyles from '../styles/main.module.css';
+import Script from 'next/script';
 
 import React from 'react';
 
@@ -10,6 +11,18 @@ export default function Home() {
         <>
         <Head>
           <title>Beans & Brews</title>
+          <Script strategy='afterinteractive' 
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.G_ID_KEY}`} />
+          <Script strategy='afterinteractive'
+              dangerouslySetInnerHTML={{ __html : `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', '${process.env.G_ID_KEY}', {
+                page_path: window.location.pathname,
+            });`,
+          }} 
+          />
         </Head>
         <h1>Hello</h1>
 
