@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import Image from 'next/image';
 import mainStyles from '../styles/main.module.css';
+import Script from 'next/script';
 
 import React from 'react';
 
