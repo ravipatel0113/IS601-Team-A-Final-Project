@@ -16,7 +16,7 @@ export default function Home() {
         <div className= {mainStyles.hero}>
                 <Image 
                   class= {mainStyles.heroimage} 
-                  src= "/images/hero_section_image.jpg" 
+                  src= "/images/hero_section_image.png" 
                   alt="Hero Section Picture"
                   priority='True'
                   width= {394}
