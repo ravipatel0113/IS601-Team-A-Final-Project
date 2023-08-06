@@ -247,6 +247,43 @@
 }
 /* Form Input Section */
 
+.subscribeSection{
+    display: flex;
+    justify-content: center;
+    border: 4px solid #14C9C9;
+    background: linear-gradient(314deg, #69aff0 0%, #e6cfcf 52.03%, #B86ADF 100%);
+}
+
+.h2_sub{
+    color: #000;
+    font-family: Poppins;
+    font-size: 25.405px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 9.146px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formText{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    /* text-align: left; */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
+}
+
 .newsletterform{
     display: flex;
     flex-direction: row;
@@ -260,35 +297,44 @@
     width: 113px;
     flex-direction: column;
     flex-shrink: 0;
-    color: #000;
-    font-family: Outfit;
-    font-size: 16px;
+    color: #252525;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
     line-height: 31px;
     opacity: 1;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 5px;
     width: 315px;
     align-items: center;
-    text-align: center;
+    text-align: left;
+}
+
+.checkBox{
+    /* background: rgba(235, 235, 235, 0.31); */
+    border: 2px solid #14C9C9;
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
 }
 .footertext {
     border-radius: 83px;
     opacity: 1;
-    border: 1px solid #62BA1B;
+    border: 1px solid #FFF;
     background: #14C9C9;
     margin-bottom: 20px;
-    width: 129px;
-    height: 37px;
+    width: 159px;
+    height: 47px;
     display: flex;
     justify-content: center;
     margin-left: 5px;
+    margin-top: 10px;
 }
 
 
-button.footertext {
-    color: #FFF;
+input.footertext {
+    color: #000;
     /* sub header */
     font-family: Poppins;
     font-size: 15px;
