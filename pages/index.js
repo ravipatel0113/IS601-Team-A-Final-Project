@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import mainStyles from '../styles/main.module.css';
 import Script from 'next/script';
+// import Image from 'react-native';
 
 import React from 'react';
 
@@ -24,18 +25,15 @@ export default function Home() {
           }} 
           />
         </Head>
-        <h1>Hello</h1>
-
-        <div className= {mainStyles.hero}>
-                <Image 
-                  class= {mainStyles.heroimage} 
-                  src= "/images/hero_section_image.png" 
-                  alt="Hero Section Picture"
-                  priority='True'
-                  width= {394}
-                  height= {394}/>
+        <section className= {mainStyles.heroSection}>
+          <div className= {mainStyles.hero}>
+            <img  className={mainStyles.heroimage} src='images/brand_quote.png' />
           </div>
-
+          
+          <div className= {mainStyles.hero}>
+            <img className={mainStyles.heroimage} src='images/hero_image.png' />
+          </div>
+        </section>
         <section className={mainStyles.subscribeSection}>
           <div id="mc_embed_shell">
             <Link href="/cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" ></Link>
