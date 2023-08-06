@@ -12,7 +12,8 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "next": "^13.4.12",
     "react": "^18.2.0",
-    "react-gtm-module": "^2.0.11"
+    "react-gtm-module": "^2.0.11",
+    "react-native": "^0.72.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.36.2"
