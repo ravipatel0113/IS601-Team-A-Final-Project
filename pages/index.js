@@ -51,6 +51,32 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <h1 className= {mainStyles.h1Pop}>Popular Menu</h1>
+        <section className= {mainStyles.PopSection}>
+          <div className= {mainStyles.PopMenu}>
+          {/* <img className= {mainStyles.MenuImage} src='/images/Espresso.png'></img> */}
+            <div className= {mainStyles.MenuItems}>
+                
+                <h3 className= {mainStyles.CoffeeTitle}>Espresso</h3>
+                <p>Espresso is made by forcing nearly boiling water through finely-ground coffee beans, which results in a concentrated, syrup-like coffee drink.</p>
+
+                <h5>Ratings 5.0</h5>
+
+                <h4>JUST $ 29.00</h4>
+            </div>
+
+            <div className= {mainStyles.MenuItems}>
+                <h3 className= {mainStyles.CoffeeTitle}>Cappucino</h3>
+                <p>Cappuccinos are a classic Italian type of coffee drink made of espresso, steamed milk, and thick foam in equal parts</p>
+
+                <h5>Ratings 5.0</h5>
+
+                <h4>JUST $ 20.00</h4>
+            </div>
+
+          </div>
+        </section>
         <section className={mainStyles.subscribeSection}>
           <div id="mc_embed_shell">
             <Link href="/cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css" ></Link>
