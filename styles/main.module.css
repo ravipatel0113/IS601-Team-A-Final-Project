@@ -211,6 +211,85 @@
     line-height: normal;
 }
 
+/* Popular Menu Section */
+
+.PopSection {
+    margin-top: 30px;
+    background: #5D1D0C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 29px;
+}
+
+.h1Pop {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.PopMenu {
+   
+    /* Apply Grid layout */
+    display: inline-flex;
+    /* Create as many columns as fit into the container */
+    gap: calc(.5 * 1.5rem);
+    /* Add space below the list */
+    align-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    /* justify-items: center; */
+    flex-wrap: wrap;
+    /* width: 1440px;
+    height: 715px; */
+}
+
+.MenuItems {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #CBB293;
+    width: 330px;
+    height: 300px;
+    flex-shrink: 0;
+    /* margin: 10px; */
+}
+
+.MenuImage {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+}
+
+.CoffeeTitle {
+    color: #18250B;
+    text-align: left;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/*  */
+
 .bio{
     color: #000;
     margin-top: 30px;
