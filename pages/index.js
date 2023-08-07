@@ -68,11 +68,29 @@ export default function Home() {
 
             <div className= {mainStyles.MenuItems}>
                 <h3 className= {mainStyles.CoffeeTitle}>Cappucino</h3>
-                <p>Cappuccinos are a classic Italian type of coffee drink made of espresso, steamed milk, and thick foam in equal parts</p>
+                <p>Cappuccinos are a classic Italian type of coffee drink made of espresso, steamed milk, and thick foam in equal parts.</p>
 
                 <h5>Ratings 5.0</h5>
 
                 <h4>JUST $ 20.00</h4>
+            </div>
+
+            <div className= {mainStyles.MenuItems}>
+                <h3 className= {mainStyles.CoffeeTitle}>Black Coffee</h3>
+                <p>Black coffee, Its popularity can be mainly attributed to how easy it is to make this beverage, be it drip, pour-over, French press.</p>
+
+                <h5>Ratings 5.0</h5>
+
+                <h4>JUST $ 25.00</h4>
+            </div>
+
+            <div className= {mainStyles.MenuItems}>
+                <h3 className= {mainStyles.CoffeeTitle}>Cold Brew</h3>
+                <p>Cold brew coffee is created by   coarsely ground coffee in room temperature water for period, often 12 hours or more. using cooler temperatures and longer brewing times.</p>
+
+                <h5>Ratings 5.0</h5>
+
+                <h4>JUST $ 29.00</h4>
             </div>
 
           </div>
