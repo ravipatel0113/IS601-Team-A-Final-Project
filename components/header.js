@@ -12,7 +12,7 @@ export default function Header() {
 
         <div className={mainStyles.pagelink}>
 
-        <Link href="/posts/about-me" className={mainStyles.links}> About Me </Link>
+        <Link href="/posts/about-us" className={mainStyles.links}> About Us </Link>
 
         </div>
         </section>

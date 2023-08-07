@@ -26,12 +26,29 @@ export default function Home() {
           />
         </Head>
         <section className= {mainStyles.heroSection}>
-          <div className= {mainStyles.hero}>
-            <img  className={mainStyles.heroimage} src='images/brand_quote.png' />
+          <div>
+            <img  className={mainStyles.hero} src='images/brand_quote.png' />
           </div>
           
-          <div className= {mainStyles.hero}>
-            <img className={mainStyles.heroimage} src='images/hero_image.png' />
+          <div>
+            <img className={mainStyles.hero} src='images/hero_image.png' />
+          </div>
+        </section>
+
+        <section className= {mainStyles.heroSection2}>
+          <div>
+            <img className= {mainStyles.hero2} src='images/home_page_image.png'></img>
+          </div>
+
+          <div>
+            <h2 className= {mainStyles.heroh2}>Rich. Intense. Indulgent.</h2>
+            <p className= {mainStyles.heropara}>Enhanced by smoky and toasty undertones, our distinctive dark roasts embody our unique identity. 
+              Through our expert roasting process, we unveil the profound, chocolatey sweetness of the beans, resulting in a decadently intricate coffee experience.
+            </p>
+
+            <div className= {mainStyles.ButtonDiv}>
+              <Link href='/posts/about-us' className= {mainStyles.heroButton}> Read More </Link>
+            </div>
           </div>
         </section>
         <section className={mainStyles.subscribeSection}>
