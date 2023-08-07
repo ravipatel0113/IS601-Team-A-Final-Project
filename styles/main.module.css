@@ -5,6 +5,13 @@
     border-bottom: var(--section-separator);
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    width: 132px;
+}
   
 .logoname {
     text-decoration: none;
@@ -20,6 +27,8 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    border-bottom: 2px solid #4E3C28;
+    border-left-width: 800px;
     /* margin-bottom: 10px; */
 }
 
@@ -36,17 +45,16 @@
 }
   
 .links {
-    color: #000;
-    font-family: Poppins;
-    font-size: 30px;
+    color: #693B23;
+    font-size: 26px;
     font-style: normal;
-    font-variant-caps: all-petite-caps;
     font-weight: 400;
-    line-height: 27.5px;
+    line-height: normal;
+    font-variant-caps: all-petite-caps;
     text-transform: capitalize;
     text-decoration: none;
     padding-right: 15px;
-    border-right: 3px solid #000;
+    /* border-right: 3px solid #000; */
 }
 
 .links:hover{
