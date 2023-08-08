@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import mainStyles from '../styles/main.module.css';
 import Script from 'next/script';
+import menuStyles from '../styles/menu.module.css';
 // import Image from 'react-native';
 
 import React from 'react';
@@ -52,48 +53,169 @@ export default function Home() {
           </div>
         </section>
 
-        <h1 className= {mainStyles.h1Pop}>Popular Menu</h1>
-        <section className= {mainStyles.PopSection}>
-          <div className= {mainStyles.PopMenu}>
-          {/* <img className= {mainStyles.MenuImage} src='/images/Espresso.png'></img> */}
-            <div className= {mainStyles.MenuItems}>
+        {/* <!-- Testimonial Section --> */}
+        {/* <section className={mainStyles.testimonialsection}>
+            <div className={mainStyles.testimonialsheader}>
+
+                <h2>Testimonial</h2>
+
+                <h1>Read What Others Have to Say</h1>
+
+            </div>
+        </section>
+
+        <section className={mainStyles.testimonialcards}>
+            <section className={mainStyles.testimonial}>
+                <div>
+                    <div className={mainStyles.personimage}>
+
+                        <img src="images/Espresso.png" /> 
+
+                        <div className={mainStyles.personname}>
+                            olivia cole
+                        </div>
                 
-                <h3 className= {mainStyles.CoffeeTitle}>Espresso</h3>
-                <p>Espresso is made by forcing nearly boiling water through finely-ground coffee beans, which results in a concentrated, syrup-like coffee drink.</p>
+                        <div className={mainStyles.personcomment}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                        </div>
 
-                <h5>Ratings 5.0</h5>
+                    </div>
+                </div> 
+            </section>
 
-                <h4>JUST $ 29.00</h4>
-            </div>
+            <section className={mainStyles.testimonial}> 
+                <div>
+                    <div className={mainStyles.personimage}>
+                        <img src="images/Cappucino.png" />
 
-            <div className= {mainStyles.MenuItems}>
-                <h3 className= {mainStyles.CoffeeTitle}>Cappucino</h3>
-                <p>Cappuccinos are a classic Italian type of coffee drink made of espresso, steamed milk, and thick foam in equal parts.</p>
+                        <div className={mainStyles.personname}>
+                            evan White
+                        </div>
 
-                <h5>Ratings 5.0</h5>
+                        <div className={mainStyles.personcomment}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                        </div>
 
-                <h4>JUST $ 20.00</h4>
-            </div>
+                    </div>
+                </div>
+            </section>
 
-            <div className= {mainStyles.MenuItems}>
-                <h3 className= {mainStyles.CoffeeTitle}>Black Coffee</h3>
-                <p>Black coffee, Its popularity can be mainly attributed to how easy it is to make this beverage, be it drip, pour-over, French press.</p>
+            <section className={mainStyles.testimonial}> 
+                <div>
+                    <div className={mainStyles.personimage}>
+                        <img src="images/Black_Coffee.png" /> 
 
-                <h5>Ratings 5.0</h5>
+                        <div className={mainStyles.personname}>
+                            Jessica Page
+                        </div>
 
-                <h4>JUST $ 25.00</h4>
-            </div>
+                        <div className={mainStyles.personcomment}>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                        </div>
 
-            <div className= {mainStyles.MenuItems}>
-                <h3 className= {mainStyles.CoffeeTitle}>Cold Brew</h3>
-                <p>Cold brew coffee is created by   coarsely ground coffee in room temperature water for period, often 12 hours or more. using cooler temperatures and longer brewing times.</p>
+                    </div>
+                </div>
+            </section>
+        </section> */}
 
-                <h5>Ratings 5.0</h5>
+        <h1 className= {menuStyles.h1Pop}>Popular Menu</h1>
+        <section className= {menuStyles.PopSection}>
+          <section className={menuStyles.popcards}>
+              <div className={menuStyles.MenuContain}>
+                <div className={menuStyles.ImagePart}>
+                    <img className={menuStyles.coffeImage} src="images/Espresso.png" />
 
-                <h4>JUST $ 29.00</h4>
-            </div>
+                    <div className={menuStyles.coffeeName}>
+                          Espresso
+                    </div>
 
-          </div>
+                    <div className={menuStyles.coffeeDesc}>
+                      Espresso is made by forcing nearly boiling water through finely-ground coffee beans, which results in a concentrated, syrup-like coffee drink.
+                    </div>
+
+                    <div className={menuStyles.rating}>
+                        Ratings 5.0
+                    </div>
+
+                    <div className={menuStyles.price}>
+                        JUST $29.00
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <section className={menuStyles.popcards}>
+              <div className={menuStyles.MenuContain}>
+                <div className={menuStyles.ImagePart}>
+                    <img className={menuStyles.coffeImage} src="images/Cappucino.png" />
+
+                    <div className={menuStyles.coffeeName}>
+                          Cappucino
+                    </div>
+
+                    <div className={menuStyles.coffeeDesc}>
+                        Cappuccinos are a classic Italian type of coffee drink made of espresso, steamed milk, and thick foam in equal parts.
+                    </div>
+
+                    <div className={menuStyles.rating}>
+                        Ratings 5.0
+                    </div>
+
+                    <div className={menuStyles.price}>
+                        JUST $20.00
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <section className={menuStyles.popcards}>
+              <div className={menuStyles.MenuContain}>
+                <div className={menuStyles.ImagePart}>
+                    <img className={menuStyles.coffeImage} src="images/Black_Coffee.png" />
+
+                    <div className={menuStyles.coffeeName}>
+                          Black Coffee
+                    </div>
+
+                    <div className={menuStyles.coffeeDesc}>
+                        Black coffee, Its popularity can be mainly attributed to how easy it is to make this beverage, be it drip, pour-over, French press.
+                    </div>
+
+                    <div className={menuStyles.rating}>
+                        Ratings 5.0
+                    </div>
+
+                    <div className={menuStyles.price}>
+                        JUST $25.00
+                    </div>
+                </div>
+              </div>
+          </section>
+
+          <section className={menuStyles.popcards}>
+              <div className={menuStyles.MenuContain}>
+                <div className={menuStyles.ImagePart}>
+                    <img className={menuStyles.coffeImagecold} src="images/Cold_brew.png" />
+
+                    <div className={menuStyles.coffeeName}>
+                          Cold Brews
+                    </div>
+
+                    <div className={menuStyles.coffeeDesc}>
+                        Cold brew coffee is created by   coarsely ground coffee in room temperature water for period, often 12 hours or more. using cooler temperatures and longer brewing times.
+                    </div>
+
+                    <div className={menuStyles.rating}>
+                        Ratings 5.0
+                    </div>
+
+                    <div className={menuStyles.price}>
+                        JUST $29.00
+                    </div>
+                </div>
+              </div>
+          </section>
+
         </section>
         <section className={mainStyles.subscribeSection}>
           <div id="mc_embed_shell">

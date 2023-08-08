@@ -1,0 +1,128 @@
+/* Popular Menu Section */
+
+.PopSection {
+    margin-top: 30px;
+    background: #5D1D0C;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 29px;
+    gap: 29px;
+}
+
+
+.h1Pop {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.popcards {
+    margin-top: 100px;
+    border-radius: 29px;
+    width: 345px;
+    /* background: #141450; */
+}
+
+.coffeeName {
+    /* color: #FFF; */
+    /* person-name */
+    /* margin-top: 30px; */
+    /* font-family: Roboto; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    letter-spacing: 2.2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+/* /* .PopMenu { */
+   
+    /* Apply Grid layout */
+    /* display: inline-flex; */
+    /* Create as many columns as fit into the container */
+    /* gap: calc(.5 * 1.5rem); */
+    /* Add space below the list */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* justify-items: center; */
+    /* flex-wrap: wrap; */
+    /* width: 1440px;
+    height: 715px; */
+/* } */
+
+.CoffeeTitle {
+    
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.coffeeName {
+    color: #18250B;
+    font-family: Poppins;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.coffeeDesc {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ImagePart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -60px;
+}
+
+.coffeImage {
+    display: flex;
+    /* width: 463px; */
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 200px;
+    border-radius: 100%;
+}
+
+.coffeImagecold {
+    display: flex;
+    /* width: 463px; */
+    align-items: center;
+    flex-shrink: 0;
+    max-width: 100px;
+    /* border-radius: 100%; */
+}
+
+.MenuContain {
+    background: #CBB293;
+    border-radius: 5px;
+
+}
+
