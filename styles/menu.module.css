@@ -15,8 +15,7 @@
 .h1Pop {
     display: flex;
     justify-content: center;
-    color: #000;
-    font-family: Poppins;
+    color: #6F5353;
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
@@ -61,19 +60,11 @@
     height: 715px; */
 /* } */
 
-.CoffeeTitle {
-    
-    font-family: Poppins;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 .coffeeName {
     color: #18250B;
     font-family: Poppins;
     text-align: left;
-    margin-left: 20px;
+    margin-top: 20px;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
@@ -86,12 +77,32 @@
 
 .coffeeDesc {
     color: #FFF;
-    text-align: center;
-    font-family: Roboto;
+    margin-left: 20px;
+    text-align: left;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.rating {
+    margin-top: 20px;
+    text-align: left;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.price {
+    margin-top: 20px;
+    text-align: left;
+    color: #18250B;;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal
 }
 
 .ImagePart {
@@ -99,7 +110,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
-    top: -60px;
+    top: -95px;
 }
 
 .coffeImage {
@@ -116,13 +127,14 @@
     /* width: 463px; */
     align-items: center;
     flex-shrink: 0;
-    max-width: 100px;
-    /* border-radius: 100%; */
+    max-width: 180px;
+    border-radius: 100%;
 }
 
 .MenuContain {
     background: #CBB293;
     border-radius: 5px;
+    max-height: 360px;
 
 }
 

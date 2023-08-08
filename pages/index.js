@@ -53,77 +53,12 @@ export default function Home() {
           </div>
         </section>
 
-        {/* <!-- Testimonial Section --> */}
-        {/* <section className={mainStyles.testimonialsection}>
-            <div className={mainStyles.testimonialsheader}>
-
-                <h2>Testimonial</h2>
-
-                <h1>Read What Others Have to Say</h1>
-
-            </div>
-        </section>
-
-        <section className={mainStyles.testimonialcards}>
-            <section className={mainStyles.testimonial}>
-                <div>
-                    <div className={mainStyles.personimage}>
-
-                        <img src="images/Espresso.png" /> 
-
-                        <div className={mainStyles.personname}>
-                            olivia cole
-                        </div>
-                
-                        <div className={mainStyles.personcomment}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
-                        </div>
-
-                    </div>
-                </div> 
-            </section>
-
-            <section className={mainStyles.testimonial}> 
-                <div>
-                    <div className={mainStyles.personimage}>
-                        <img src="images/Cappucino.png" />
-
-                        <div className={mainStyles.personname}>
-                            evan White
-                        </div>
-
-                        <div className={mainStyles.personcomment}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-
-            <section className={mainStyles.testimonial}> 
-                <div>
-                    <div className={mainStyles.personimage}>
-                        <img src="images/Black_Coffee.png" /> 
-
-                        <div className={mainStyles.personname}>
-                            Jessica Page
-                        </div>
-
-                        <div className={mainStyles.personcomment}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
-                        </div>
-
-                    </div>
-                </div>
-            </section>
-        </section> */}
-
         <h1 className= {menuStyles.h1Pop}>Popular Menu</h1>
         <section className= {menuStyles.PopSection}>
           <section className={menuStyles.popcards}>
               <div className={menuStyles.MenuContain}>
                 <div className={menuStyles.ImagePart}>
-                    <img className={menuStyles.coffeImage} src="images/Espresso.png" />
+                    <img className={menuStyles.coffeImage} src="images/Espresso_image.png" />
 
                     <div className={menuStyles.coffeeName}>
                           Espresso
@@ -147,7 +82,7 @@ export default function Home() {
           <section className={menuStyles.popcards}>
               <div className={menuStyles.MenuContain}>
                 <div className={menuStyles.ImagePart}>
-                    <img className={menuStyles.coffeImage} src="images/Cappucino.png" />
+                    <img className={menuStyles.coffeImage} src="images/Cappucino_image.png" />
 
                     <div className={menuStyles.coffeeName}>
                           Cappucino
@@ -171,7 +106,7 @@ export default function Home() {
           <section className={menuStyles.popcards}>
               <div className={menuStyles.MenuContain}>
                 <div className={menuStyles.ImagePart}>
-                    <img className={menuStyles.coffeImage} src="images/Black_Coffee.png" />
+                    <img className={menuStyles.coffeImage} src="images/Black_Coffee_image.png" />
 
                     <div className={menuStyles.coffeeName}>
                           Black Coffee
@@ -195,7 +130,7 @@ export default function Home() {
           <section className={menuStyles.popcards}>
               <div className={menuStyles.MenuContain}>
                 <div className={menuStyles.ImagePart}>
-                    <img className={menuStyles.coffeImagecold} src="images/Cold_brew.png" />
+                    <img className={menuStyles.coffeImage} src="images/cold_brew_image.png" />
 
                     <div className={menuStyles.coffeeName}>
                           Cold Brews
@@ -238,7 +173,7 @@ export default function Home() {
                         </div>
                         <div id="mergeRow-gdpr" className= {mainStyles.formText}>
                             <div className="content__gdpr">
-                                <p>Please select all the ways you would like to hear from Ravi:</p>
+                                <p>Please select all the ways you would like to hear from Us:</p>
                                 <fieldset name="interestgroup_field" className= {mainStyles.checkBox}>
                                     <label className="checkbox subfield" for="gdpr40083">
                                         <input type="checkbox" id="gdpr_40083" name="gdpr[40083]" ></input>
