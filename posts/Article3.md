@@ -2,7 +2,6 @@
 title: Sustainable Sipping - Our Commitment to Ethical Coffee Sourcing
 
 Published on: July 2, 2023
-
 ---
 
 ![Brewing Coffee](../public/images/brewcoffee.jpg)

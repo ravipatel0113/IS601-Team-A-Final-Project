@@ -1,6 +1,8 @@
-# **The Art of Coffee: Exploring the Origins of Our Beans**
+---
+Title: The Art of Coffee - Exploring the Origins of Our Beans
 
-*Published on: June 20, 2023*
+Published on: June 20, 2023
+---
 
 
 ![Coffee Farm](../public/images/cfarm.jpg)
