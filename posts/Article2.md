@@ -6,7 +6,7 @@
 
 Have you ever wondered about the journey your morning cup of coffee takes before it reaches your lips? Coffee's path from farm to cup is a fascinating journey that spans across continents and involves countless hands. Let's take a closer look at this incredible process.
 
-![Coffee Farm](public/images/cfarm.jpg)
+![Coffee Farm](../public/images/cfarm.jpg)
 
 *It all begins on coffee farms situated in lush, equatorial regions. Coffee beans grow on trees, usually as cherries that ripen to vibrant red hues. The journey continues with a series of meticulous steps:*
 

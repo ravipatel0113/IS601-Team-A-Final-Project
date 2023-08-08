@@ -6,7 +6,7 @@
 
 Are you tired of subpar coffee in the mornings? It's time to master the art of brewing your own perfect cup of coffee at home. Whether you're a beginner or a seasoned coffee connoisseur, these tips will help you elevate your home brewing game.
 
-![Brewing Coffee](public/images/brewcoffee.jpg)
+![Brewing Coffee](../public/images/brewcoffee.jpg)
 
 *Brewing a cup of coffee is an art that requires attention to detail. From choosing the right beans to mastering your brewing method, every step matters. Here are some key takeaways:*
 
