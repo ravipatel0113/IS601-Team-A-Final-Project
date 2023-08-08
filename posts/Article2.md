@@ -1,11 +1,9 @@
 ---
-Title: Brewing for Every Palate - Exploring our Coffee Menu
+title: Brewing for Every Palate - Exploring our Coffee Menu
 
-Published on: June 25, 2023
+date: June 25, 2023
 ---
 
-
-![Coffee Blending](../public/images/coffeeblend.jpg)
 
 - **Introduction:**
 
