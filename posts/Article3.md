@@ -6,7 +6,7 @@
 
 Coffee, beyond being a morning ritual, is a canvas of flavors waiting to be explored. Have you ever wondered how different beans come together to create that perfect cup? Let's dive into the art of coffee blending and discover how master roasters craft unique flavor profiles that tantalize our taste buds.
 
-![Coffee Blending](public/images/coffeeblend.jpg)
+![Coffee Blending](../public/images/coffeeblend.jpg)
 
 *Coffee blending is akin to composing a symphony of flavors. It's a meticulous process that involves combining different types of beans to achieve a harmonious and balanced taste. Here's a glimpse into the world of coffee blending:*
 
