@@ -25,6 +25,12 @@ export default function Home() {
             });`,
           }} 
           />
+          <meta
+            name="description"
+            content="Welcome to Our Website Beans & Brews."
+          />
+          <meta name="twitter:card" content="summary_large_image" />
+          <link rel="icon" href='/images/siteicon.ico' />
         </Head>
         <section className= {mainStyles.heroSection}>
           <div>

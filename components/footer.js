@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faBook, faEnvelope, faPhone, faStore } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { useState } from "react";
 export default function Footer() {
