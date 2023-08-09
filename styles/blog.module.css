@@ -1,0 +1,38 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #63866a;
+    padding: 20px;
+    border: 5px solid #9b3030;
+    /* box-shadow:10px 2px #b2e0bf; */
+    border-radius: 10px;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    color: #6F5353;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.BlogTitle{
+    color: #6F5353;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.BlogSep{
+    border-bottom: 4px solid #5D1D0C;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    /* width: 800px; */
+}
