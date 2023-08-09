@@ -99,13 +99,15 @@
     margin: 0 0.5em;
 }
 
-.missionDesc {
-    width: 934px;
-    color: #18250B;
-    margin: auto;
+.missionContain {
+    max-width: 900px;
     display: flex;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.missionDesc {
+    color: #18250B;
     font-size: 26px;
     font-style: normal;
     font-weight: 300;
