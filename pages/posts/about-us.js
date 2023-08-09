@@ -55,13 +55,19 @@ export default function AboutUsPost() {
         <section className= {aboutStyle.MissionSection}>
 
             <span className= {aboutStyle.missionLine}>Our Mission</span>
+            <div className= {aboutStyle.missionContain}>
 
-            <section className= {aboutStyle.missionDesc}>
+                    <div className= {aboutStyle.missionDesc}>
+                        At Beans & Brews, our mission is to serve not just a cup of coffee, but a moment of comfort, connection, and community. 
+                        We are dedicated to crafting the finest coffee experiences, steeped in authenticity and quality, and delivered with warmth and hospitality.
+                    </div>
+                </div>
+            {/* <section className= {aboutStyle.missionDesc}>
                 <div>
                     At Beans & Brews, our mission is to serve not just a cup of coffee, but a moment of comfort, connection, and community. 
                     We are dedicated to crafting the finest coffee experiences, steeped in authenticity and quality, and delivered with warmth and hospitality.
                 </div>
-            </section>
+            </section> */}
 
         </section>
 
