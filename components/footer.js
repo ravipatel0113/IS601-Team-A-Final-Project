@@ -2,7 +2,7 @@ import mainStyles from '../styles/main.module.css'
 import Link from 'next/link';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faBook, faEnvelope, faPhone, faStore } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faBook, faEnvelope, faPhone, faStore, faFile, faBlog, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { useState } from "react";
@@ -10,30 +10,45 @@ export default function Footer() {
     return (
     <>
         <footer className={mainStyles.footer}>
-
+           
         <div className={mainStyles.footerlink}>
-        <Link href="/">
-            <FontAwesomeIcon icon={faHome} /> Home
-        </Link>
-        <Link href="/">
-            <FontAwesomeIcon icon={faUser} /> About US
-        </Link>
+            <h3 className= {mainStyles.footerH3}> Useful Links </h3>
+            <Link href="/">
+                <FontAwesomeIcon icon={faFile} /> Privacy Policy
+            </Link>
+            
+            <Link href="/posts/blog">
+                <FontAwesomeIcon icon={faBlog} /> Blog
+            </Link>
+
+            <Link href="/posts/blog">
+                <FontAwesomeIcon icon={faSearch} /> Terms & Conditions
+            </Link>
         </div>
 
         <div className={mainStyles.footerlink}>
+            <h3 className= {mainStyles.footerH3}>Lets Help You </h3>
+            <Link href="/">
+                <FontAwesomeIcon icon={faHome} /> Home
+            </Link>
 
-            <a href="mailto:example@example.com"><FontAwesomeIcon icon={faEnvelope} /> Email</a>
-            <a href="https://www.linkedin.com/"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
-            <a href="https://www.github.com/"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
-            <a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /> Twitter</a>
+            <Link href="/posts/about-us">
+                <FontAwesomeIcon icon={faUser} /> About US
+            </Link>
+            
+            <Link href="/">
+                <FontAwesomeIcon icon={faPhone} /> Contact US
+            </Link>
         </div>
 
-        <div className={mainStyles.footerlink}>
-
-            <a href="#"><FontAwesomeIcon icon={faStore} /> Market</a>
-            <a href="#"><FontAwesomeIcon icon={faPhone} /> Contact</a>
-
-        </div>
+        <section className={mainStyles.Social}>
+            <div className={mainStyles.footerSocial}>
+                <a href="mailto:example@example.com"><FontAwesomeIcon icon={faEnvelope} /> Email</a>
+                <a href="https://www.linkedin.com/"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
+                <a href="https://www.github.com/"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
+                <a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /> Twitter</a>
+            </div>
+        </section>
         </footer>
     </>
     );
