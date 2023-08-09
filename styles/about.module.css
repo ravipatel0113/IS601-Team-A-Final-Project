@@ -1,0 +1,212 @@
+/* About Section */
+
+.withLine {
+    display: block;
+    color: #B07038;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+  
+.withLine:before {
+    content: "";
+    display: inline-block;
+    border-top: 5px solid #18250B;
+    border-radius: 20px;
+    width: 450px;
+    vertical-align: middle;
+    margin: 0 0.5em;
+}
+
+.aboutSection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.aboutImage {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.aboutContain {
+    max-width: 900px;
+}
+
+.aboutTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+.h3 {
+    color: #18250B;
+    width: 173px;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.coffeeSymbol {
+    width: 27px;
+    margin-top: 35px;
+    height: 27px;
+    transform: rotate(315deg);
+    flex-shrink: 0;
+    display: flex;
+    justify-items: center;
+}
+
+.aboutDesc {
+    color: #000;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* Mission Section */
+
+.MissionSection {
+    margin-top: 40px;
+    background: #FFF;
+    padding-bottom: 40px;
+}
+
+.missionLine {
+    padding-top: 70px;
+    display: block;
+    color: #B07038;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+  
+.missionLine:before,
+.missionLine:after {
+    content: "";
+    display: inline-block;
+    border-top: 5px solid #18250B;
+    border-radius: 20px;
+    width: 450px;
+    vertical-align: middle;
+    margin: 0 0.5em;
+}
+
+.missionDesc {
+    width: 934px;
+    color: #18250B;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* Value Section */
+
+.valueLine {
+    display: block;
+    padding-top: 50px;
+    color: #B07038;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+  
+.valueLine:before {
+    content: "";
+    display: inline-block;
+    border-top: 5px solid #18250B;
+    border-radius: 20px;
+    width: 450px;
+    vertical-align: middle;
+    margin: 0 0.5em;
+}
+
+.valueSection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.valueImage {
+    max-width: 450px;
+    max-height: 450px;
+}
+
+.valueContain {
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+}
+
+.valueDesc {
+    color: #18250B;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* Brand Section */
+
+.BrandSection {
+    margin-top: 40px;
+    background: #FFF;
+    padding-bottom: 40px;
+}
+
+.Brand {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.brandLine {
+    padding-top: 70px;
+    display: block;
+    color: #B07038;
+    font-size: 45px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+  
+.brandLine:before,
+.brandLine:after {
+    content: "";
+    display: inline-block;
+    border-top: 5px solid #18250B;
+    border-radius: 20px;
+    width: 450px;
+    vertical-align: middle;
+    margin: 0 0.5em;
+}
+
+.brandImage {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.brandDesc {
+    color: #18250B;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
