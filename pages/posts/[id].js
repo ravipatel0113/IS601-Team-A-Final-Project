@@ -1,4 +1,4 @@
-import Layout from '../../components/layout';
+import blogStyles from '../../styles/blog.module.css'
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
 
@@ -20,10 +20,12 @@ export default function Post({ postData }) {
             <Head>
             <title>{postData.title}</title>
             </Head>
-            <article>
-            <h1>{postData.title}</h1>
-            <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-            </article>
+            <div className= {blogStyles.container}>
+                <article>
+                    <h1>{postData.title}</h1>
+                    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                </article>
+            </div>
         </>
     );
 }
