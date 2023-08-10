@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Script from "next/script";
 import { getSortedPostsData } from '../../lib/posts';
 import blogStyles from '../../styles/blog.module.css';
 import Date from '../../components/date';
