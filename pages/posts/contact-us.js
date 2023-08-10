@@ -89,7 +89,12 @@ export default function AboutUsPost() {
                         <br/> <br/>
                         Or give us a call at 1 (800) 999-2132, Monday through Friday from 6 am to 6 pm EST. We’re all ears.
                         <br/> <br/>
+
+                        <div className= {contactStyles.Buttonhelp}>
+                            <Link href='/posts/contact-us' className= {contactStyles.contactButton}> Help </Link>
+                        </div>
                     </div>
+
                 </form>
             </section>
             
