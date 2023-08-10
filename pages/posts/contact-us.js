@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Script from "next/script";
-import contactStyles from '../../styles/contact.module.css'
-import { ca } from 'date-fns/locale';
+import contactStyles from '../../styles/contact.module.css';
 
 export default function AboutUsPost() {
     return(

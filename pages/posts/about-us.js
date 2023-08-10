@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Script from "next/script";
-import aboutStyle from '../../styles/about.module.css'
-import { mainModule } from "process";
+import aboutStyle from '../../styles/about.module.css';
 
 export default function AboutUsPost() {
     return(
