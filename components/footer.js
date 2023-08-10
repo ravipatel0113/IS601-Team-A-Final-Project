@@ -32,11 +32,11 @@ export default function Footer() {
             </Link>
 
             <Link href="/posts/about-us">
-                <FontAwesomeIcon icon={faUser} /> About US
+                <FontAwesomeIcon icon={faUser} /> About Us
             </Link>
             
             <Link href="/posts/contact-us">
-                <FontAwesomeIcon icon={faPhone} /> Contact US
+                <FontAwesomeIcon icon={faPhone} /> Contact Us
             </Link>
         </div>
 
