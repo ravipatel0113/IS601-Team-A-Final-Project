@@ -1,0 +1,155 @@
+.contactSection {
+    background-image: url('/images/contact_page_image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    max-width: 900px;
+    height: 470px;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.h1 {
+    color: #E1DCC9;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.Desc {
+    color: #E1DCC9;
+    text-align: center;
+    font-size: 24px;
+    max-width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formSection {
+    display: flex;
+    margin-top: 60px;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    /* justify-content: space-around; */
+}
+
+.formText {
+    color: #000;
+    font-size: 25px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Name {
+    border-radius: 5px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #252525;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    line-height: 31px;
+    opacity: 1;
+    margin-top: 5px;
+    max-width: 315px;
+    align-items: center;
+    text-align: left;
+}
+
+.Email {
+    border-radius: 5px;
+    background: #FFF;
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #252525;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    line-height: 31px;
+    opacity: 1;
+    margin-top: 5px;
+    align-items: center;
+    text-align: left;
+}
+
+.formDesc {
+    border-radius: 5px;
+    background: #FFF;
+    display: flex;
+    width: 380px;
+    height: 300px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #252525;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    line-height: 31px;
+    opacity: 1;
+    margin-top: 5px;
+    align-items: center;
+    text-align: left;
+}
+
+.ButtonDiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.contactButton{
+    background: #B26726;
+    border-radius: 10px;
+    /* filter: blur(2px); */
+    border: none;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.formQuote {
+    color: #000;
+    max-width: 500px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
