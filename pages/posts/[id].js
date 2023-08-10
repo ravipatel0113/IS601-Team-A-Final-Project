@@ -1,6 +1,7 @@
 import blogStyles from '../../styles/blog.module.css'
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Head from 'next/head';
+import Date from '../../components/date';
 
 export async function getStaticProps({ params }) {
     // Add the "await" keyword like this:
@@ -22,8 +23,11 @@ export default function Post({ postData }) {
             </Head>
             <div className= {blogStyles.container}>
                 <article>
-                    <h1>{postData.title}</h1>
-                    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+                    <h1 className= {blogStyles.h1}>{postData.title}</h1>
+                    <div className={blogStyles.lightText}>
+                        Published On: <Date dateString={postData.date} />
+                    </div>
+                    <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}  className= {blogStyles.blog}/>
                 </article>
             </div>
         </>
