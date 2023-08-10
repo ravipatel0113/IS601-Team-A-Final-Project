@@ -17,7 +17,7 @@ export default function Header() {
             <Link href='/' className={mainStyles.links}>Home</Link>
             <Link href='/posts/blog' className={mainStyles.links}>Blog</Link>
             <Link href="/posts/about-us" className={mainStyles.links}> About Us </Link>
-            <Link href='/' className={mainStyles.links}>Contact Us</Link>
+            <Link href='/posts/contact-us' className={mainStyles.links}>Contact Us</Link>
 
         </div>
         </section>

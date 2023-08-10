@@ -36,7 +36,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faUser} /> About US
             </Link>
             
-            <Link href="/">
+            <Link href="/posts/contact-us">
                 <FontAwesomeIcon icon={faPhone} /> Contact US
             </Link>
         </div>
