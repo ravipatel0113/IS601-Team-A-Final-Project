@@ -13,7 +13,7 @@ export default function Footer() {
            
         <div className={mainStyles.footerlink}>
             <h3 className= {mainStyles.footerH3}> Useful Links </h3>
-            <Link href="/">
+            <Link href="/privacy.html" target= '_blank'>
                 <FontAwesomeIcon icon={faFile} /> Privacy Policy
             </Link>
             
