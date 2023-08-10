@@ -20,7 +20,7 @@ export default function Footer() {
                 <FontAwesomeIcon icon={faBlog} /> Blog
             </Link>
 
-            <Link href="/posts/blog">
+            <Link href="/">
                 <FontAwesomeIcon icon={faSearch} /> Terms & Conditions
             </Link>
         </div>
@@ -32,11 +32,11 @@ export default function Footer() {
             </Link>
 
             <Link href="/posts/about-us">
-                <FontAwesomeIcon icon={faUser} /> About US
+                <FontAwesomeIcon icon={faUser} /> About Us
             </Link>
             
             <Link href="/posts/contact-us">
-                <FontAwesomeIcon icon={faPhone} /> Contact US
+                <FontAwesomeIcon icon={faPhone} /> Contact Us
             </Link>
         </div>
 
@@ -44,7 +44,7 @@ export default function Footer() {
             <div className={mainStyles.footerSocial}>
                 <a href="mailto:example@example.com"><FontAwesomeIcon icon={faEnvelope} /> Email</a>
                 <a href="https://www.linkedin.com/"><FontAwesomeIcon icon={faLinkedin} /> LinkedIn</a>
-                <a href="https://www.github.com/"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
+                <a href="https://github.com/ravipatel0113/IS601-Team-A-Final-Project.git"><FontAwesomeIcon icon={faGithub} /> GitHub</a>
                 <a href="https://twitter.com/"><FontAwesomeIcon icon={faTwitter} /> Twitter</a>
             </div>
         </section>
