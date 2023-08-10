@@ -1,8 +1,10 @@
 ---
 title: Sustainable Sipping - Our Commitment to Ethical Coffee Sourcing
 
-date: July 2, 2023
+date: '2023-07-03'
 ---
+
+![Coffee Brewing Image](/images/brew_coffee.png)
 
 - **Introduction:**
 

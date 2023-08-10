@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { getSortedPostsData } from '../../lib/posts';
 import blogStyles from '../../styles/blog.module.css';
+import Date from '../../components/date';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -24,6 +25,9 @@ export default function Blog({ allPostsData }) {
             <div  className= {blogStyles.BlogSep} key={id}>
               <Link  className= {blogStyles.BlogTitle} href={`/posts/${id}`}>{title}</Link>
               <br />
+                <small className={blogStyles.lightText}>
+                    Published On: <Date dateString={date} />
+                </small>
             </div>
           ))}
         </section>
