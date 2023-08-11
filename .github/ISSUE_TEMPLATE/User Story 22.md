@@ -15,7 +15,7 @@
 
 ### Acceptance Criteria: 
 
- **Given** the requirements for the Blog Page designW
+ **Given** the requirements for the Blog Page design
  
  **When** When I start creating the Figma design
      
