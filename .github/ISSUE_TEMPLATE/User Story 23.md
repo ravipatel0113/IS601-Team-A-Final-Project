@@ -4,10 +4,10 @@
 
 **As a** Developer, 
 **I want** To Create Marketing Strategies Blog Page
-**So that** 
+**So that**  I can provide valuable insights and information about effective marketing strategies for the brand "Beans & Brews" from the existing markdown files.
 
 #### Story Points: 
-**Points**:
+**Points**: 3
 
 #### Assignee: 
 
@@ -15,8 +15,8 @@
 
 ### Acceptance Criteria: 
 
- **Given**
+ **Given** the need for a comprehensive understanding of the brand's marketing strategies,
      
- **When**
+ **When** I create the Marketing Strategies Blog Page,
  
- **Then**
+ **Then** The blog page with marketing strategies is created 
