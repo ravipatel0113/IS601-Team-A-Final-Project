@@ -4,10 +4,10 @@
 
 **As a** Developer, 
 **I want** To Setup Tag Manager
-**So that** 
+**So that** We Manage and deploy various tracking codes and scripts on the website without the need for manual code changes.
 
 #### Story Points: 
-**Points**:
+**Points**: 2
 
 #### Assignee: 
 
@@ -15,10 +15,11 @@
 
 ### Acceptance Criteria: 
 
-**Given**
+**Given** the need for efficient management of tracking codes and scripts,
 
-**When**
+**When** I set up a Tag Manager account and integrate the Tag Manager code into the website's codebase,
 
-**Then**
+**Then** The Tag Manager should allow to define triggers and rules for when and where these scripts should be executed on the website.
+
 
 
