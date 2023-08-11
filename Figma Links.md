@@ -4,7 +4,7 @@
 ## Brand Guide:
 [Brand Guide Figma Link](https://www.figma.com/file/bT4DEtwTZLWrncRuXgbyhL/Brand-Guide?type=whiteboard&node-id=0%3A1&t=5pWkdkii60nySOk3-1)
 
-##Buyer Persona:
+## Buyer Persona:
 
 [Buyer Persona Figma Link](https://www.figma.com/file/KjoREjbtSKebRsO2Nrjlij/User-Persona?type=whiteboard&node-id=0%3A1&t=sAQc0D5SI4J1BmWA-1)
 
