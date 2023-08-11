@@ -1,6 +1,6 @@
 # Group Activity Report
 
-| Pull Request Title | Description | Assignee | Story Points | Date Assigned | Date Completed |
+| Bug Reported | Description | Assignee | Story Points | Date Assigned | Date Completed |
 | ------------------ | ----------- | -------- | ------------- | ------------- | -------------- |
 | Mailchimp Email Submit Issue | The Subscribe form doesn't submit the Email into the Mailchimp accout linked.  | Ravikumar | 3 | 08/01/2023 | 08/05/2023 |
 | Privacy Policy Document | The Privacy Policy need to be attach to the website from Termily.com. | Ravikumar | 2 | 08/09/2023 | 08/10/2023 |
