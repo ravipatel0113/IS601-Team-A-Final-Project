@@ -3,7 +3,7 @@ name: Menu Navigation Issue
 about: The Menu links should able to navigate the User to appropiate pages.
 title: 'Menu Links Navigation Issue'
 labels: 'Technical Issue'
-assignees: 'Ravikumar Patel'
+assignees: 'Swasti Johri'
 
 ---
 

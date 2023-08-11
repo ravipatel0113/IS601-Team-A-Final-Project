@@ -3,7 +3,7 @@ name: Responsive Design Issue
 about: The Website needs to be responsive when reducing the size of window screen.
 title: 'Design Responsive Issue'
 labels: 'Technical Issue'
-assignees: 'Ravikumar Patel'
+assignees: 'Charitaa Andey'
 
 ---
 
