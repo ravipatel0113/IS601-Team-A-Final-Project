@@ -1,10 +1,10 @@
 ## User Story 3
 
-**Title**: *Render HomePage*
+**Title**: *Render AboutPage*
 
 **As a** Developer,  
-**I want** To Render the Website HomePage ,  
-**So that** The Webiste HomePage is Ready to write the Code.
+**I want** To Render the Website AboutPage ,  
+**So that** The Webiste AboutPage is Ready to write the Code.
 
 #### Story Points:
 **Points:** 1
@@ -17,6 +17,6 @@
 
 1. **Given** A Final Group Project.  
    **When** The NextJs environment setup is ready.  
-   **Then** The Homepage is ready for storing the HTML code.
+   **Then** The AboutPage is ready for storing the HTML code.
 
 
