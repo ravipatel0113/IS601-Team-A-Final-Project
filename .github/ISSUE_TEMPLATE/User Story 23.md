@@ -15,6 +15,8 @@
 
 ### Acceptance Criteria: 
 
-1.  **Given**
-     **When**
-     **Then**
+ **Given**
+     
+ **When**
+ 
+ **Then**

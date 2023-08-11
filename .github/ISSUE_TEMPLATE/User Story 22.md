@@ -4,10 +4,10 @@
 
 **As a** Developer, 
 **I want**  To create Figma Design for Blog Page
-**So that** 
+**So that** the design and layout of the page align with the brand's aesthetics and provide an engaging reading experience for users.
 
 #### Story Points: 
-**Points**:
+**Points**: 5
 
 #### Assignee: 
 
@@ -15,8 +15,10 @@
 
 ### Acceptance Criteria: 
 
-1.  **Given**
-     **When**
-     **Then**
+ **Given** the requirements for the Blog Page designW
+ 
+ **When** When I start creating the Figma design
+     
+ **Then** Then the design should incorporate the brand's color palette, typography, and visual 
 
 

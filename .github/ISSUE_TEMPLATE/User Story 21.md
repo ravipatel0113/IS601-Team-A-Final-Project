@@ -18,5 +18,7 @@
 ### Acceptance Criteria: 
 
   **Given** a user navigates to the 'Blog' section of the website
+  
   **When** When they click on the 'Blog' link in the navigation menu
+  
   **Then** Then they should be directed to the dedicated Blog Page.
