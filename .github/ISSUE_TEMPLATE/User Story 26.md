@@ -8,7 +8,7 @@
 **So that** 
 
 #### Story Points: 
-**Points**:
+**Points**: 1
 
 #### Assignee: 
 
@@ -16,6 +16,8 @@
 
 ### Acceptance Criteria: 
 
-1.  **Given**
-     **When**
-     **Then**
+**Given** the legal requirement to comply with GDPR regulations for user data protection,
+
+**When**  I attach the GDPR script to the website's codebase,
+
+**Then** The privacy notice should explain the types of data collected, the purposes of data processing, and the rights of users in accordance with GDPR. The script should be thoroughly tested to ensure its proper functioning across different devices, browsers, and user scenarios.
